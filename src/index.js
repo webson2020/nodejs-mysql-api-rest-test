@@ -3,6 +3,6 @@ import { PORT } from './config.js'
 
 
 app.listen(PORT)
-console.log('Server running on port 3000')
+console.log(`Server on port http://localhost:${PORT}`)
 
 
